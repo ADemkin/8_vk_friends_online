@@ -34,7 +34,8 @@ def get_online_friends(login, password):
             friend_data = vk_api.users.get(user_id=id)
             online_friends_names.append('%s %s' % (friend_data[0]['first_name'], friend_data[0]['last_name']))
             # only three requests per second allowed by API
-            sleep(0.33)
+            vk_api_timeout = 1 / 3
+            sleep(vk_api_timeout)
     finally:
         return online_friends_names
 
