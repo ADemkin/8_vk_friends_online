@@ -1,6 +1,6 @@
 # Watcher of Friends Online
 
-[TODO. There will be project description]
+This script will show all your online friends in VK.
 
 # How to Install
 
@@ -11,6 +11,24 @@ pip install -r requirements.txt # alternatively try pip3
 ```
 
 Remember, it is recommended to use [virtualenv/venv](https://devman.org/encyclopedia/pip/pip_virtualenv/) for better isolation.
+
+# How to Use
+
+Launch script using terminal. It will ask for login details and will print online friends;
+
+example:
+```
+python3 vk_friends_online.py
+Login: billclinton@gov.us
+Password: [password]
+
+George Bush
+Donald Trump
+Barak Obama
+Hrederik Okel
+Artemiy Grebennikov
+
+```
 
 # Project Goals
 
