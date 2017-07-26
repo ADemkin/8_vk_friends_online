@@ -47,9 +47,7 @@ def output_friends_to_console(friends_online):
 
 
 if __name__ == '__main__':
-    #login = get_user_login()
-    #password = get_user_password()
-    login = 'sdfsf'
-    password = 'fdsf'
+    login = get_user_login()
+    password = get_user_password()
     friends_online = get_online_friends(login, password)
     output_friends_to_console(friends_online)
